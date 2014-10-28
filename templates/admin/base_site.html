@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ 'TarteasAsoin' }} | {{ 'adminstrador'|default:_('Sitio Administración Tareas Asoin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ 'TareasAsoin Administración'|default:_('TaresAsoin administración') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
